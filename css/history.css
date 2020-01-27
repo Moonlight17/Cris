@@ -38,7 +38,27 @@ body{
 .history{
 	width: 1000px;
 	margin: 0 auto;
+	margin-bottom: 70px;
 }
 .alignright{
 	float: right;
+}
+
+#footer{
+	height: 45px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #f213af;
+}
+#footer div{
+	margin: 0 auto;
+	/* width: 20%; */
+	text-align: center;
+	margin-top: 13px;
+}
+#footer div span{
+	color: #fff;
+	font-size: 20px;
+	transition-duration: 0.4s;
 }
