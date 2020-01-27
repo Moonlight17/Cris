@@ -1,0 +1,61 @@
+body {
+    background-color: whitesmoke;
+}
+#navigation {
+    width: 50%;
+    margin: 0 auto;
+}
+#navigation #nav {
+    display: flex;
+}
+#navigation #nav #active {
+    background-color: rgba(0, 217, 255, 0.5);
+}
+#navigation #nav a.menu#active:hover {
+    background-color: rgba(0, 217, 255, 0.5);
+    border: solid 1px cornflowerblue; /* делаем цветную рамку */
+}
+
+#navigation #nav a.menu {
+    flex-basis: auto;
+    flex-grow: 1;
+    text-align: center;
+    margin: 0 10px;
+    padding: 30px; /*делаем отступы до рамки */
+    border: solid 1px burlywood; /* делаем цветную рамку */
+    border-radius: 7px; /* делаем скругление рамки */
+    cursor: default; /* убираем указательный курсор */
+    text-decoration: none; /* убираем подчеркивание */
+    transition-duration: 0.4s;
+    color: black;
+}
+#navigation #nav a.menu:hover {
+    background-color: cornflowerblue;
+    border: solid 1px cornflowerblue; /* делаем цветную рамку */
+    color: white;
+}
+
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 5px;
+    background: #c8cac7;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 10%;
+}
+th {
+    font-size: 22px;
+    font-weight: 300;
+    padding: 12px 10px;
+    border-bottom: 2px solid cornflowerblue;
+    color: cornflowerblue;
+}
+tbody tr:nth-child(2) {
+    border-bottom: 2px solid cornflowerblue;
+}
+td {
+    padding: 10px;
+    color: #3b3834;
+}

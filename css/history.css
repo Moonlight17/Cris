@@ -8,6 +8,14 @@ body{
 #navigation #nav{
 	display: flex;
 }
+#navigation #nav #active{
+	background-color: rgba(0, 217, 255, 0.5);
+}
+#navigation #nav a.menu#active:hover{
+	background-color: rgba(0, 217, 255, 0.5);
+	border:  solid 1px cornflowerblue; 		   /* делаем цветную рамку */
+}
+
 #navigation #nav a.menu{
 	flex-basis: auto;
 	flex-grow: 1;
@@ -21,33 +29,16 @@ body{
 	transition-duration: 0.4s;
 	color: black;
 }
-#navigation #nav #active{
-	background-color: rgba(0, 217, 255, 0.5);
-}
-#navigation #nav a.menu#active:hover{
-	background-color: rgba(0, 217, 255, 0.5);
-	border:  solid 1px cornflowerblue; 		   /* делаем цветную рамку */
-}
-
 #navigation #nav a.menu:hover{
 	background-color: cornflowerblue;
 	border:  solid 1px cornflowerblue; 		   /* делаем цветную рамку */
 	color: white;
 }
-#nav{
-	/* width: 100%; */
-}
-#title{
-	width: 70%;
+
+.history{
+	width: 1000px;
 	margin: 0 auto;
-	margin-top: 300px;
-	padding: 30px;
-	border: 3px outset red;
-	transition-duration: 0.7s;
 }
-#title:hover{
-	border-radius: 30px;
-}
-span#search_system{
-	font-size: 30px;
+.alignright{
+	float: right;
 }
