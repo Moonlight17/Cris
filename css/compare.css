@@ -59,3 +59,25 @@ td {
     padding: 10px;
     color: #3b3834;
 }
+
+
+
+
+#footer{
+	height: 45px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #f213af;
+}
+#footer div{
+	margin: 0 auto;
+	/* width: 20%; */
+	text-align: center;
+	margin-top: 13px;
+}
+#footer div span{
+	color: #fff;
+	font-size: 20px;
+	transition-duration: 0.4s;
+}
