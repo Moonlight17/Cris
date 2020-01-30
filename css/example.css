@@ -37,32 +37,37 @@ body{
 }
 
 #ex{
-	width: 30%;
+	width: 1000px;
 	margin: 0 auto;
-	margin-top: 300px;
-	padding: 30px;
-	border: 3px outset blueviolet;
-	transition-duration: 0.7s;
+	margin-bottom: 70px;
+	/* border: 3px outset blueviolet; */
+	/* transition-duration: 0.7s; */
 }
 #ex:hover{
 	border-radius: 30px;
 }
-ul{
-	width: 20%;
+ul#main{
+	width: 400px;
 	margin: 0 auto;
+	
 }
-li{
+ul#main li{
 	transition-duration: 0.6s;
 	padding: 10px;
 	width: 100%;
 	text-align: center;
 	border-radius: 50%;
 }
-li:hover{
-	background-color: burlywood;
+#data{
+	width: 1000px;
+	margin: 0 auto;
+	margin-bottom: 70px;
 }
-
-
+#data img{
+	width: 70%;
+	margin: 0 auto;
+	margin-left: 15%;
+}
 
 
 #footer{

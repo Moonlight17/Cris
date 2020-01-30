@@ -36,10 +36,11 @@ body{
 }
 
 #words{
-	margin-top: 150px;
+	width: 1000px;
+	margin: 0 auto;
+	margin-bottom: 70px;
 }
 ul{
-	width: 40%;
 	margin: 0 auto;
 	list-style-type: circle;
 	cursor: default;
